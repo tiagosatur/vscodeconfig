@@ -4,7 +4,8 @@ This repository aims to share usefull VSCODE configuration for Frontend, JS, Rea
 
 
 ## Extensions
-You can see the url and the installation commands:
+You can see the extension url and the installation command.
+For installing, press ctrl+p and paste the command.
 
 * Live Share
   - https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare
