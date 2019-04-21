@@ -63,3 +63,13 @@ Paste the following code object there:
 ]
 ~~~~
 You can change the shortcut.
+
+
+## Generating SSH Key
+
+~~~~
+$ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+$ cat ~/.ssh/id_rsa.pub
+~~~~
+Paste de generated code on your github > settings > SSH
+
