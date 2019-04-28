@@ -43,21 +43,24 @@ For installing, press ctrl+p and paste the command.
   - https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer
   - ext install CoenraadS.bracket-pair-colorizer
 
+* Polacode
+  - https://marketplace.visualstudio.com/items?itemName=pnp.polacode
+  - ext install pnp.polacode
 
 ## Custom keyboard shortcuts
 
 ### console.log
-If you wanna a shortcut for console.log('') add this config on Files > Preferences > Keyboard Shortcuts > {} symbol on top right.
+If you wanna a shortcut for console.log('',) add this config on Files > Preferences > Keyboard Shortcuts > {} symbol on top right.
 
 Paste the following code object there:
 ~~~~
 [
     {
-        "key": "ctrl+shift+0",
+        "key": "alt+shift+l",
         "command": "editor.action.insertSnippet",
         "when": "editorTextFocus",
         "args": {
-          "snippet": "console.log('${TM_SELECTED_TEXT}$1')$2;"
+          "snippet": "console.log('${TM_SELECTED_TEXT}$1',)$2;"
         }
       }
 ]
